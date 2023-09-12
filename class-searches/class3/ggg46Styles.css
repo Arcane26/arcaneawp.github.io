@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    color: #f07b05;
+    font-family: 'Jura', sans-serif;
+    margin: 0 auto;
+    background-color: rgb(11,11,11);
+    box-sizing: border-box;
+}
+
+hr {
+    padding: 0px 0px;
+    margin: 0px auto;
+    width: 1000px;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+h5 {
+    color: rgba(180, 180, 180, 0.9)
+}
+
+p {
+    color: rgb(220,220,220)
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, green, black, black, black, black, black, green);
+    border-bottom: 2px solid rgba(15,15,15,.9);
+}
+
+header img {
+    height: auto;
+    width: 25%;
+    margin-top: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, green, black, rgb(9,9,9), rgb(9,9,9), rgb(9,9,9), black, green);
+}
+
+nav a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    text-align: center;
+}
+
+/* LEAD PICTURE */
+
+#lead-pic {
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#lead-pic h3{
+    color:rgb(180, 180, 180)
+}
+
+#lead-pic img{
+    height: auto;
+    width: 800px;
+    opacity: 1;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+#discovery {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#discovery h4 {
+    margin: .5rem 0px 2rem 0px;
+    color:rgb(180, 180, 180);
+    font-size: 1.5rem;
+}
+
+#discovery h4 span {
+    color: #f07b05;
+}
+
+/* PLANET DESCRIPTION */
+
+#planet-description {
+    width: 800px;
+    margin-top: .9rem;
+    font-size: 1.05rem;
+    text-align: left;
+}
+
+#planet-desctiption p {
+    text-align: left;
+}
+
+
+/* DATA */
+
+#data {
+    margin: 3rem auto 3rem auto;
+    width: 600px;
+}
+
+#data-selectors {
+    display: flex;
+    width: 600px;
+}
+.data-card {
+    border: 1px solid grey;
+    width: 300px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#body {
+    text-align: center;
+    border-top-left-radius: 15px;
+    background-color: rgba(0,0,0,.4);
+    border-color:#f07b05;
+}
+
+#orbital {
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-left: none;
+}
+
+#data-values {
+    width: 600px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    color:rgb(180, 180, 180);
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,.4);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-weight: 500;
+}
+
+.row {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.row span {
+    color: #f07b05;
+    font-weight: bold;
+}
+
+
+/* GALAXY / SYSTEM MAP PICTURES */
+
+#gal-sys-pics {
+    margin: 3rem auto 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+#gal-sys-pics img {
+    border-radius: 15px;
+}
+
+#gal-sys-pics h1 {
+    margin-bottom: 1rem;
+}
+#sysmap {
+    height: 500px;
+    width: auto;
+}
+
+/* THE GALLERY */
+
+#gallery {
+    margin-bottom: 5rem;
+}
+#gallery h1 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+#gallery-container img {
+    width: 250px;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    opacity: .8;
+    font-size: .75rem;
+}
+
+footer h2 {
+    margin-bottom: 0px;
+}

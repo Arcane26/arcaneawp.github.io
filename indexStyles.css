@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    color: #f07b05;
+    font-family: 'Jura', sans-serif;
+    margin: 0 auto;
+    background-color: rgb(11,11,11);
+    box-sizing: border-box;
+}
+
+hr {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+h5 {
+    color: rgba(180, 180, 180, 0.9)
+}
+/* HEADER */
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, green, black, black, black, black, black, green);
+    border-bottom: 2px solid rgba(15,15,15,.9);
+}
+
+header img {
+    height: auto;
+    width: 25%;
+    margin-top: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, green, black, rgb(9,9,9), rgb(9,9,9), rgb(9,9,9), black, green);
+}
+
+nav a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    background-color: rgb(0,0,0);
+}
+
+/* NEW GGGs */
+
+#new-planets-container {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(11,11,11), black);
+}
+
+#new-planets-flex {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.new-planet-card {
+    margin: 1rem 4rem;
+}
+.new-planet-card img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: .25s;
+}
+
+.new-planet-card img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border: 1px solid #f07b05;
+}
+
+#new-planets-container h1 {
+    padding: 2rem 0rem;
+}
+
+.new-planet-card h4 {
+    color: rgb(220,220,220);
+}
+
+/* PLANETS */
+
+#planets {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0,0,0), rgb(11,11,11));
+}
+
+#planets-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#planets h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+#planets h2 {
+    opacity: 0.9;
+}
+
+.planet-card img{
+    height: 250px;
+    opacity: 1;
+    border-radius: 15px;
+    border: 1px solid gray;
+    transition: .25s;
+}
+.planet-card:hover {
+    color: #00FF00;
+}
+
+#planets-flex {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.planet-card {
+    margin-bottom: 3rem;
+}
+
+.planet-card a {
+    text-decoration: none;
+    color: #f07b05;
+}
+.planet-card img:hover {
+    border: 1px solid #f07b05;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    opacity: .8;
+    font-size: .75rem;
+}
+
+footer h2 {
+    margin-bottom: 0px;
+}
+
+/* RESPONSIVE STUFFS */
+
+
+@media only screen and (max-width: 460px) {
+    .planet-card img{
+        height: auto;
+        width: 90%;
+    }
+
+    .pilot-card img {
+        height: auto;
+        width: 75%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav h2 {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 666px) {
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        background-image: linear-gradient(to right, black, black);
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    header img {
+        height: 150px;
+        width: 170px;
+    }
+
+    nav h2 {
+        margin-bottom: 10px;
+    }
+
+    header {
+        background-image: none;
+        background-color: black;
+    }
+
+    .planet-card h2 {
+        font-size: 1.2rem;
+    }
+}
+
+html, body {
+    /*fixes whitespace to the right somehow idfk*/
+    /*dont give any element with 100% width any padding*/
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  }
