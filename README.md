@@ -4,7 +4,7 @@ the data (and knowledge about them in general) more accessible to curious minds,
 
 I am currently teaching myself web development, and as I progress through my courses and become more comfortable with different concepts, I will attempt to improve the page and make it look more appealing, reactive and interactive.
 ## Features
-The main flow of the site is going to involve a 'Search' function that will give the user the ability to quickly search for a planet through 'Known Classes'. Later on will be able to type a query into a text field to fetch known planets, or sort them based on discovery
+The main flow of the site is going to involve a 'Search' function that will give the user the ability to quickly search for a planet through 'Known Classes'. Later on will be able to type a query into a text field to fetch known planets, or sort them based on Discovery
 Date, Region, Distance to Sol, K10-Type Anomalies present, or Alphabetically by procedural-generation name. After a search, a list of planets matching the resulting query will be displayed, along with their discovery date and discovering CMDR, allowing the user to click on one. This will take them to that planet's 
 *Information Page*, where all information about that planet will be available.
 
@@ -22,7 +22,7 @@ This section will be located on the site's index.html landing page. It will be a
 will reset to be empty for new ones to be added.
 
 #### Total GGGs Known Counter
-This will be a separate counter, located either in the <header> or somewhere near the top of <main> in index.html. It will increase by one with every new GGG added to the site.
+This will be a separate counter, located either in the header or somewhere near the top of main in index.html. It will increase by one with every new GGG added to the site.
 
 #### GGGs Discovered On This Day
 A separate section that will take the date on the user's computer and see if any of the GGGs on the database match the month/day, then display them. They will be clickable and will take the user to that specific GGG page.
